@@ -71,6 +71,7 @@
         <div class=corpo-cima>
             <div class="corpo-cima-cima">
                 <img id="borrado-cima" src="{{asset('/assets/imgs/fundo_de_cima.jpg')}}" alt="homepage">
+                <img id="borrado-fundo" src="{{asset('/assets/imgs/borrado-fundo.jpg')}}" alt="borrado">
                 <img id="logo-league"src="{{asset('/assets/imgs/Logo_league_of_legends.png')}}" alt="">
             </div>
         </div>
