@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/c4b7e6276f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    
     <title>League of Legends</title>
 </head>
 <body>
@@ -136,6 +137,126 @@
             <div class="img-meio-meio">
                 <img id="img-runeterra"src="{{asset('/assets/imgs/home_page_centro.jpg')}}" alt="">
             </div>
+        </div>
+        {{---CAMPEOES--}}
+        <div class="campeoes">
+            <span id="pl-campeoes">CAMPEÕES ----</span>
+        </div>
+        {{---CORPO-ESCOLHA-SEU-CAMPEAO--}}
+        <div class="escolha">
+            <div class="pl-escolha">
+                <font face="Comic Sans"> ESCOLHA SEU</font> 
+            </div>
+            <div class="pl-campeao">
+                <strong>CAMPEÃO</strong>
+            </div>
+            <div class="pl-rift">
+                <span>Quer você goste de se jogar na batalha, ajudar seus aliados ou os dois, existe um </span>
+            </div>
+            <div class="pl-rift2">
+                <span>lugar para você no Rift</span>
+            </div>
+ {{-- -----------------ESCOLHA-SEU-CAMPEAO/BOTAO1----------------------------}}
+            <div class="btn-1">
+                <input type="submit" name="btn1" id="btn1" value="Descubra mais Campeões">
+            </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/BOTAO2----------------------------}}
+            <div class="btn-2">
+                <input type="submit" name="btn2" id="btn2" value="JOGAR AGORA">
+            </div>    
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/IMAGEM-LEONA----------------------------}}            
+            <div class="img-leona">
+                <img id="img-leona" src="{{asset('/assets/imgs/leona_sem_animacao.png')}}" alt="">
+                <div class="pl-leona-protetora">
+                    <span id="pl-leona">Leona</span>
+                    <span id="pl-protetora">A Protetora do Sol</span>
+                </div>
+            </div> 
+            <nav class="nav-class">
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAVEGAR----------------------------}}
+                <div class="navegar-classes">
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-ASSASINOS----------------------------}}
+                    <div class="nav-assassinos">
+                        <div>
+                            <img id="img-assassinos" src="{{asset('/assets/imgs/icon-assasin-class.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-assassinos">    
+                            <span>assassinos</span>
+                        </div>
+                        <div id="bola1">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-LUTADORES----------------------------}}
+                    <div class="nav-lutadores">
+                        <div>
+                            <img id="img-lutadores" src="{{asset('/assets/imgs/class-lutadores-icon.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-lutadores">    
+                            <span>lutadores</span>
+                        </div>
+                        <div id="bola2">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-MAGOS----------------------------}}
+                    <div class="nav-magos">
+                        <div>
+                            <img id="img-magos" src="{{asset('/assets/imgs/class-magos-icon.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-magos">    
+                            <span>magos</span>
+                        </div>
+                        <div id="bola3">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-ATIRADORES----------------------------}}
+                    <div class="nav-atiradores">
+                        <div>
+                            <img id="img-atiradores" src="{{asset('/assets/imgs/class-atirador-icon.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-atiradores">    
+                            <span>atiradores</span>
+                        </div>
+                        <div id="bola4">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-SUPORTES----------------------------}}
+                    <div class="nav-suportes">
+                        <div>
+                            <img id="img-suportes" src="{{asset('/assets/imgs/class-suporte-icon.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-suportes">    
+                            <span>suportes</span>
+                        </div>
+                        <div id="bola5">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/NAV-TANQUES----------------------------}}
+                    <div class="nav-tanques">
+                        <div>
+                            <img id="img-tanques" src="{{asset('/assets/imgs/class-tanque-icon.png')}}" alt=""> 
+                        </div>
+                        <div class="pl-tanques">    
+                            <span>tanques</span>
+                        </div>
+                        <div id="bola6">
+
+                        </div>
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/LINHA----------------------------}}
+                    <div id="linha">
+
+                    </div>
+{{-- -----------------ESCOLHA-SEU-CAMPEAO/IMAGENS----------------------------}}
+                    <div class="imgs-campeao">
+                        <iframe width="451" height="254" src="https://www.youtube.com/embed/eovBRox_8u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
 </body>

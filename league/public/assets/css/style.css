@@ -10,6 +10,7 @@
 body{
     width: 1332px;
     height: 7669.33px;
+    background: #CED8DE;
 }
 
 /*   -----------------HEADER POR INTEIRO---------------------------   */
@@ -446,6 +447,475 @@ header .inicio-header{
 /*  --------------------------//////////////////// -------------------*/
 /*  --------------------------//////////////////// -------------------*/
 
+/*  --------------------------CAMPEOES-------------------*/
+
+.corpo-inteiro .campeoes{
+    font-size: 10px;
+    transform: rotate(270deg);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    left: 30px;
+    top: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    top: 550px;
+}
+
 /*   -----------------ESCOLHA-SEU-CAMPEAO-------------------------- */
+/*   -----------------ESCOLHA-SEU-CAMPEAO/PALAVRAS-------------------------- */
+
+.corpo-inteiro .escolha{
+    position: relative;
+    top: 500px;
+    height: 900px;
+    left: 80px;
+}
+
+.corpo-inteiro .escolha .pl-escolha{
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1; 
+    width: 200px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: default;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    position: relative;
+    left: 520px;
+}
+
+.corpo-inteiro .escolha .pl-campeao {
+    font-style: italic;
+    font-family: "Beaufort for LOL", serif;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    font-size: 100px;
+    position: relative;
+    top: 10px;
+    left: 370px;
+    width: 500px;
+}
+
+.corpo-inteiro .escolha .pl-rift {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 380px;
+    top: 20px;
+    font-size: 14px;
+    width: 700px;
+}
+
+.corpo-inteiro .escolha .pl-rift2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 560px;
+    top: 30px;
+    font-size: 14px;
+    width: 500px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/BOTOES-------------------------- */
+
+.corpo-inteiro .escolha .btn-1{
+    position: relative;
+    top: 50px;
+    left: 400px;
+    width: 220px;
+
+}
+
+.corpo-inteiro .escolha .btn-1 input[type="submit"]{
+    border: 0;
+    position: relative;
+    left: 0px;
+    width: 218px;
+    height: 29px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 14px 0px 14px 0px;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 220px;
+}
+
+.corpo-inteiro .escolha .btn-1{
+    width: 220px;   
+}
+
+.corpo-inteiro .escolha .btn-2 input[type="submit"]{
+    background-color: rgb(11, 196, 226);
+    border: 0;
+    position: relative;
+    width: 218px;
+    height: 29px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    left: 630px;
+    top: 20px;
+    border-radius: 14px 0px 14px 0px;
+    width: 220px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/IMAGEM-ABAIXO-DA-PALAVRA-------------------------- */
+
+.corpo-inteiro .escolha .img-leona{
+    width: 700px;
+    height: 800;
+}
+
+.corpo-inteiro .escolha .img-leona #img-leona{
+    position: relative;
+    left: 590px;
+    width: 700px;
+    height: 700px;
+    bottom: 98px;
+    z-index: -10000;
+}
+
+.corpo-inteiro .escolha .img-leona .pl-leona-protetora{
+    width: 250px;
+    position: relative;
+    left: 890px;
+    bottom: 50px;
+}
+
+.corpo-inteiro .escolha .img-leona #pl-leona{
+    display: block;
+    color: rgb(1, 1, 1);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+
+.corpo-inteiro .escolha .img-leona #pl-protetora{
+    display: block;
+    color: rgb(1, 1, 1);
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+/* .corpo-inteiro .escolha .btn-2 input[type="submit"]::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    right: -15px;
+    width: 30px; 
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #fff;
+} */
 
 
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAVEGACAO-DE-CLASSES-------------------------- */
+
+.corpo-inteiro .nav-class{
+    position: relative;
+    bottom: 600px;
+    height: 500px;
+    width: 690px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes {
+    width: 100%;
+    height: 160px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-ASSASSINOS-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-assassinos{
+    display: block;
+    width: 85px;
+    position: relative;
+    top: 20px;
+    height: 80px;
+    left: 40px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-assassinos #img-assassinos{
+    position: relative;
+    top: 12px;
+    left: 12px;
+    width: 50px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-assassinos .pl-assassinos{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-assassinos:hover{
+    background-color: #000000;
+}
+
+
+.corpo-inteiro .nav-class .navegar-classes .nav-assassinos #bola1{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 41px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-LUTADORES-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-lutadores{
+    display: block;
+    width: 85px;
+    position: relative;
+    bottom: 60px;
+    left: 140px;
+    height: 80px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-lutadores #img-lutadores{
+    position: relative;
+    top: 2px;
+    left: 9px;
+    width: 70px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-lutadores .pl-lutadores{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-lutadores #bola2{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 1px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+}
+
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-MAGOS-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-magos{
+    display: block;
+    width: 85px;
+    position: relative;
+    bottom: 140px;
+    left: 240px;
+    height: 80px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-magos #img-magos{
+    position: relative;
+    top: 10px;
+    left: 22.5px;
+    width: 40px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-magos .pl-magos{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 10px;
+    left: 22.5px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-magos #bola3{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 31px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-ATIRADORES-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-atiradores{
+    display: block;
+    width: 85px;
+    position: relative;
+    bottom: 220px;
+    left: 345px;
+    height: 80px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-atiradores #img-atiradores{
+    position: relative;
+    top: 12px;
+    left: 22.5px;
+    width: 40px;
+    opacity: 80%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-atiradores .pl-atiradores{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 16px;
+    left: 12px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-atiradores #bola4{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 37px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-SUPORTES-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-suportes{
+    display: block;
+    width: 85px;
+    position: relative;
+    bottom: 300px;
+    left: 450px;
+    height: 80px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-suportes #img-suportes{
+    position: relative;
+    top: 12px;
+    left: 22.5px;
+    width: 40px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-suportes .pl-suportes{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    opacity: 50%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-suportes #bola5{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 31px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/NAV-TANQUES-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .nav-tanques{
+    display: block;
+    width: 85px;
+    position: relative;
+    bottom: 375px;
+    left: 555px;
+    height: 80px;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-tanques #img-tanques{
+    position: relative;
+    top: 12px;
+    left: 22.5px;
+    width: 40px;
+    opacity: 80%;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-tanques .pl-tanques{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    opacity: 50%;
+    display: flex;
+}
+
+.corpo-inteiro .nav-class .navegar-classes .nav-tanques #bola6{
+    width: 10px;
+    height: 10px;
+    background: lightgrey;
+    position: relative;
+    top: 32px;
+    border-radius: 50px;
+    z-index: 1;
+    left: 37px;
+    
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/LINHAZINHA-------------------------- */
+
+#linha {
+    width: 800px;
+    border: 0.1px solid lightgrey;
+    position: relative;
+    right: 100px;
+    bottom: 360px;
+    z-index: -1;
+}
+
+/*   -----------------ESCOLHA-SEU-CAMPEAO/IMAGENS-CAMPEAOS-------------------------- */
+
+.corpo-inteiro .nav-class .navegar-classes .imgs-campeao{
+    width: 451px;
+    height: 254px;
+    background-color: #000000;
+    position: relative;
+    bottom: 300px;
+    left: 70px;
+}
