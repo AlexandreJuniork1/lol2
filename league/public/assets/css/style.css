@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Tapestry&family=Water+Brush&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -927,13 +929,13 @@ header .inicio-header{
 
 .corpo-inteiro .modos{
     width: 107%;
-    height: 2600px;
+    height: 2900px;
     position: relative;
     top: 600px;
     background: #000000;
 }
 
-/*   -----------------PARTE DO MODOS/SKIN-------------------------- */
+/*   -----------------PARTE DO MODOS/SKINS-------------------------- */
 
 .corpo-inteiro .modos .parte-skin{
     width: 100%;
@@ -942,7 +944,7 @@ header .inicio-header{
     position: relative;
 }
 
-/*   -----------------PARTE DO MODOS/PALAVRA-------------------------- */
+/*   -----------------PARTE DO MODOS/SKINS/PALAVRA-------------------------- */
 
 .corpo-inteiro .modos .parte-skin .pl-skin-de-campeao{
     font-size: 10px;
@@ -959,7 +961,7 @@ header .inicio-header{
     z-index: 1000000;
 }
 
-/*   -----------------PARTE DO MODOS/IMAGENS-------------------------- */
+/*   -----------------PARTE DO MODOS/SKINS/IMAGENS-------------------------- */
 
 .corpo-inteiro .modos .parte-skin .imagens-arvores #imagem-arvore1{
     width: 100%;
@@ -980,3 +982,89 @@ header .inicio-header{
     left: 430px;
     bottom: 1990px;
 }
+
+/*   -----------------PARTE DO MODOS/SKIN/PALAVRAS----------------------- */
+
+.corpo-inteiro .modos .parte-skin .pl-modos #arrase{
+    color: azure;
+    position: relative;
+    bottom: 2430px;
+    left: 1050px;
+    width: 230px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.corpo-inteiro .modos .parte-skin .pl-modos #estilo{
+    color: azure;
+    position: relative;
+    bottom: 2430px;
+    left: 960px;
+    width: 230px;
+    font-size: 100px;    
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tapestry';
+    letter-spacing: -5px;
+}
+
+.corpo-inteiro .modos .parte-skin .pl-modos #personalize{
+    color: azure;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 12px;    
+    position: relative;
+    bottom: 2450px;
+    left: 930px;
+    width: 380px;
+}
+
+.corpo-inteiro .modos .parte-skin .pl-modos #pl-campeoes{
+    color: azure;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 12px;    
+    position: relative;
+    bottom: 2465px;
+    left: 970px;
+    width: 380px;
+}
+
+/*   -----------------PARTE DO MODOS/SKIN/BOTAO----------------------- */
+
+.corpo-inteiro .modos .parte-skin .btn-modos #btn-modos{
+    background-color: rgb(11, 196, 226);
+    border: 0;
+    width: 218px;
+    height: 29px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 14px 0px 14px 0px;
+    width: 220px;
+    position: relative;
+    bottom: 2440px;
+    left: 1020px;
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------PARTE DO MODOS/MODO-DE-JOGO----------------------- */
+
+.corpo-inteiro .modos .modo-de-jogo{
+    width: 100%;
+    height: 800px;
+    background: blueviolet;
+    position: relative;
+    top: 350px;
+}
+

@@ -280,9 +280,32 @@
                     <div class="img-akali-animada">
                         <img id="imagem-akali" src="{{asset('/assets/imgs/akali_animada.png')}}" alt="">
                     </div>
+                    <div class="pl-modos">
+                        <div id="arrase">
+                            <span>ARRASE COM</span>
+                        </div>
+                        <div id="estilo">
+                            <span>ESTILO</span>
+                        </div>
+                        <div id="personalize">
+                            <span>Personalize o jogo mudando o visual dos seus</span>
+                        </div>
+                        <div id="pl-campeoes">
+                            <span>Campeões favoritos com skins.</span>
+                        </div>
+                    </div>
+                    <div class="btn-modos">
+                        <input type="submit" name="btn-modos" id="btn-modos" value="JOGAR AGORA">
+                    </div>
                 </div> 
-                <div class="parte-modo-jogo"></div>
-                <div class="parte-como-jogar"></div>
+                <div class="parte-modo-jogo">
+                    <div class="modo-de-jogo">
+                        
+                    </div>
+                </div>
+                <div class="parte-como-jogar">
+
+                </div>
             </div>
         </div>
 </body>
