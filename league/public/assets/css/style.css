@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Tapestry&family=Water+Brush&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Tapestry&family=Water+Brush&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +11,13 @@
 }
 
 body{
-    width: 1332px;
-    height: 7669.33px;
+    width: 1351px;
+    height: 7660.06px;
 }
 
 /*   -----------------HEADER POR INTEIRO---------------------------   */
 
-header .tudo-header{ 
+header .tudo-header{    
     background-color: #111;
     font-weight: bold;
     height: 80px; 
@@ -102,14 +103,14 @@ header .inicio-header{
 /*   -----------------fontes---------------------------   */
     font-size: 13px;
     font-weight: 600;
-    line-height: 120%;
-    letter-spacing: .08em;
+    line-height: 100%;
     text-transform: uppercase;
 }
 
 .meio-header .navegacao-meio-header .pl:hover{
     background: rgba(128,128,128,.2);
     border-radius: 12px;
+    cursor: pointer;
 }
 
 /*   -----------------MEIO HEADER//PALAVRAS/ICONS--------------------------- */
@@ -215,14 +216,14 @@ header .inicio-header{
 
 .corpo-inteiro{
     height: 100%;
-    width: 100%;
+    width: 100%;            
 }
 
 /*   -----------------CORPO-CIMA--------------------------- */
 
 .corpo-inteiro .corpo-cima{
     height: 300px;  
-    width: 107%;
+    width: 100%;
 }
 
 .corpo-inteiro .corpo-cima .corpo-cima-cima  #borrado-cima{
@@ -243,7 +244,7 @@ header .inicio-header{
     align-items: center;    
     position: relative;
     bottom: 870px;
-    left: 480px;
+    left: 440px;
     width: 530px;
 }
 
@@ -264,11 +265,10 @@ header .inicio-header{
     padding: 8px 16px;
     color: #111;
     border: 0;
-    left: 50px;
     font-size: 12px;
     bottom:800px;
     width: 200px;
-    left: 100px;
+    left: 50px;
     font-weight: bolder;
     cursor: pointer;
     border-radius: 2px;
@@ -287,11 +287,10 @@ header .inicio-header{
 /*   -----------------CORPO-NOTICIAS--------------------------- */
 
 .corpo-inteiro .corpo-noticias{
-    width: 107%;
+    width: 100%;
     height: 200px;
     position: relative;
     top: 390px;
-    background-color: antiquewhite;
 }
 
 .corpo-inteiro .corpo-noticias .pl-noticias{
@@ -419,7 +418,7 @@ header .inicio-header{
     letter-spacing: 0.12em;
     text-transform: uppercase;
     position: relative;
-    left: 1230px;
+    left: 1100px;
     bottom: 350px;
 }
 
@@ -435,12 +434,12 @@ header .inicio-header{
     height: 650px;
     position: relative;
     top: 480px;
-    left: 60px;
+    left: 95px;
 }
 
 .corpo-inteiro .img-meio .img-meio-meio #img-runeterra{
     height: 600px;
-    width: 100%;
+    width: 90%;
 }
 
 /*  --------------------------//////////////////// -------------------*/
@@ -928,7 +927,7 @@ header .inicio-header{
 /*   -----------------PARTE DO MODOS-------------------------- */
 
 .corpo-inteiro .modos{
-    width: 107%;
+    width: 100%;
     height: 2900px;
     position: relative;
     top: 600px;
@@ -1062,9 +1061,715 @@ header .inicio-header{
 
 .corpo-inteiro .modos .modo-de-jogo{
     width: 100%;
-    height: 800px;
-    background: blueviolet;
+    height: 900px;
     position: relative;
     top: 350px;
 }
 
+/*   -----------------MODO-DE-JOGO/IMAGENS----------------------- */
+
+.corpo-inteiro .modos .modo-de-jogo .fundos #fundo-rift{
+    z-index: -1000000;
+    opacity: 50%;
+    border-style: double;
+    width: 100%;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #img-lobby{
+    width: 20%;
+    position: relative;
+    bottom: 870px;
+    border: 4px solid rgb(11, 196, 226);;
+    left: 170px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #img-lobby:hover{
+    border: 8px solid  white;
+} 
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #aram{
+    width: 20%;
+    position: relative;
+    bottom: 870px;
+    border: 4px solid rgb(11, 196, 226);;
+    left: 270px;
+    height: 155.47px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #aram:hover{
+    border: 8px solid  white;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #tft{
+    width: 20%;
+    position: relative;
+    bottom: 870px;
+    border: 4px solid rgb(11, 196, 226);;
+    left: 370px;
+    height: 155.47px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .imgs-pequenas #tft:hover{
+    border: 8px solid  white;
+
+}
+
+/*   -----------------MODO-DE-JOGO/PALAVRAS----------------------- */
+
+.corpo-inteiro .modos .modo-de-jogo #varias{
+    color: azure;
+    position: relative;
+    width: 360px;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    left: 545px;
+    bottom: 900px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo #jogar{
+    color: azure;
+    position: relative;
+    width: 230px;
+    bottom: 900px;
+    left: 510px;
+    font-size: 92px;    
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tapestry';
+    letter-spacing: -5px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo #pl-summonner{
+    color: azure;
+    position: relative;
+    width: 230px;
+    bottom: 490px;
+    left: 210px;
+    font-size: 32px;    
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tapestry';
+    letter-spacing: -2px;
+} 
+
+.corpo-inteiro .modos .modo-de-jogo #pl-aram{
+    color: azure;
+    position: relative;
+    width: 230px;
+    bottom: 535px;
+    left: 640px;
+    font-size: 32px;    
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tapestry';
+    letter-spacing: -2px;   
+}
+
+.corpo-inteiro .modos .modo-de-jogo #pl-tft{
+    color: azure;
+    position: relative;
+    width: 230px;
+    bottom: 570px;
+    left: 1040px;
+    font-size: 32px;    
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tapestry';
+    letter-spacing: -2px;   
+}
+
+.corpo-inteiro .modos .modo-de-jogo .frases #guerra {
+    color: white;
+    width: 500px;
+    position: relative;
+    bottom: 800px;
+    left: 400px;
+    margin-top: 1.25rem;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .frases #montar{
+    color:white;
+    position: relative;
+    bottom: 770px;
+    right: 150px;
+    font-size: 14px;
+    line-height: 1.6;
+    height: 39px;
+    letter-spacing: 1.21px;
+}
+
+.corpo-inteiro .modos .modo-de-jogo .frases #oponentes{
+    color: white;
+    position: relative;
+    right: 550px;
+    bottom: 740px;
+}
+/*   -----------------MODO-DE-JOGO/BOTAO----------------------- */
+
+.corpo-inteiro .modos .modo-de-jogo .btn-jogar5 input[type="submit"]{
+    background-color: rgb(11, 196, 226);
+    border: 0;
+    position: relative;
+    width: 190px;
+    height: 29px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    left: 570px;
+    bottom: 900px;
+    border-radius: 14px 0px 14px 0px;
+}
+
+/*   -----------------MODO-DE-JOGO/PALAVRA-LADO----------------------- */
+
+.corpo-inteiro .modos .modo-de-jogo .pl-modos-lado #pl-modos{
+    font-size: 11px;
+    transform: rotate(270deg);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    z-index: 1000000;
+    letter-spacing: 0.8px;
+    bottom: 600px;
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------PARTE-DOS-MODOS/PARTE-COMO-JOGAR-------------------------- */
+
+/*   -----------------PARTE-COMO-JOGAR/IMAGENS-------------------------- */
+
+.corpo-inteiro .modos .como-jogar #arena{
+    width: 70%;
+    position: relative;
+    top: 400px;
+    right: 50px;
+}
+
+/*   -----------------PARTE-COMO-JOGAR/PALAVRAS-------------------------- */
+
+.corpo-inteiro .modos .como-jogar #pl-como-jogar{
+    font-size: 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 160px;
+    height: 150px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 3px;
+    color: white;
+    z-index: 10000000;
+    right: 150px;
+}
+
+.corpo-inteiro .modos .como-jogar #comece{
+    color: azure;
+    position: relative;
+    width: 230px;
+    left: 930px;
+    bottom: 140px;
+    font-size: 20px;    
+    font-weight: bold;
+    font-style: italic;
+} 
+
+.corpo-inteiro .modos .como-jogar #lenda{
+    color: azure;
+    position: relative;
+    width: 230px;
+    left: 690px;
+    bottom: 50px;
+    font-size: 92px;    
+    font-weight: bold;
+    font-style: italic;
+} 
+
+.corpo-inteiro .modos .como-jogar #acabou{
+    color: white;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+} 
+
+.corpo-inteiro .modos .como-jogar #jogo-jogado{
+    color: white;
+    position: relative;
+    right: 50px;
+    top: 35px;
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+}
+
+/*   -----------------PARTE-COMO-JOGAR/BOTOES-------------------------- */
+
+.corpo-inteiro .modos .como-jogar #pl-comecar{
+    border: 0;
+    position: relative;
+    left: 890px;
+    width: 218px;
+    top: 81px;
+    height: 29px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 14px 0px 14px 0px;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 220px;
+}
+
+.corpo-inteiro .modos .como-jogar #pl-jogar-agora{
+    background-color: rgb(11, 196, 226);
+    border: 0;
+    position: relative;
+    width: 218px;
+    height: 29px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    left: 900px;
+    top: 80px;
+    border-radius: 14px 0px 14px 0px;
+    width: 220px;
+}
+
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------PARTE-DESTAQUE--------------------------------*/
+.corpo-inteiro .em-destaque{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 600px;
+}
+/*   -----------------PARTE-DESTAQUE/PALAVRAS--------------------------------*/
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-destaque{
+    font-size: 8px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 160px;
+    height: 150px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 3px;
+    color: black;
+    right: 120px;
+    top: 80px;
+} 
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-descubra{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Merriwheater';
+}
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-mais{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Merriwheater';
+}
+
+/*   -----------------PARTE-DESTAQUE/IMAGENS--------------------------------*/
+
+.corpo-inteiro .em-destaque .imagens-destaque #img-tft-camp{
+    width: 35%;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+
+.corpo-inteiro .em-destaque .imagens-destaque #img-renata-class{
+    width: 35%;
+    position: relative;
+    left: 230px;
+    bottom: 20px;
+}
+
+/*   -----------------PARTE-DESTAQUE/PALAVRAS2--------------------------------*/
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-campeonato{
+    font-size: 25px;
+    position: relative;
+    left: 340px;
+    font-family: 'Viga';
+    font-style: italic;
+}
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-campeonato #engenhocas{
+    position: relative;
+    right: 50px;
+    width: 300px;
+    font-family: 'Viga';
+}
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-renata{
+    font-size: 25px;
+    position: relative;
+    left: 830px;
+    font-family: 'Viga';
+    font-style: italic;
+    bottom: 100px;
+}
+
+.corpo-inteiro .em-destaque .palavras-destaque #pl-renata #universo{
+    position: relative;
+    left: 50px;
+    width: 100px;
+    font-family: 'Viga';
+}
+
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------FIM-DO-VIDE0--------------------------------*/
+
+.corpo-inteiro .fim-video{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 500px;
+}
+
+/*   -----------------FIM-DO-VIDE0/VIDEO--------------------------------*/
+
+.corpo-inteiro .fim-video #video-kaisa{
+    width: 100%;
+}
+
+/*   -----------------FIM-DO-VIDE0/BOTAO--------------------------------*/
+
+.corpo-inteiro .fim-video #btn-jogar-agora3{
+    background-color: rgb(11, 196, 226);
+    text-align: center;
+    position: relative;
+    height: 70px;
+    padding: 8px 16px;
+    color: #111;
+    border: 0;
+    font-size: 17px;
+    bottom:450px;
+    width: 200px;
+    left: 570px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.corpo-inteiro .fim-video #btn-jogar-agora3:hover{
+    border-radius: 15px;
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------PARTE-LEVAR-LOL-COM-VC==PORTATIL-------------------------- */
+
+.corpo-inteiro .portatil{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: rgb(6, 28, 37);;
+    position: relative;
+    top: 690px;
+}
+
+/*   -----------------PORTATIL/PALAVRAS-------------------------- */
+
+.corpo-inteiro .portatil #leve{
+    color: rgb(209, 218, 222);
+    left: 50px;
+    font-family: 'Viga';
+    top: 30px;
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.corpo-inteiro .portatil #baixe{
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.corpo-inteiro .portatil #baixe #recentes{
+    position: relative;
+    left: 150px;
+}
+
+/*   -----------------PORTATIL/IMAGENS-------------------------- */
+
+.corpo-inteiro .portatil .imagens-icons {
+    height: 80px;
+    width: 300px;
+    position: relative;
+    left: 525px;
+}
+
+.corpo-inteiro .portatil .imagens-icons #app-store{
+    width: 97px;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+
+.corpo-inteiro .portatil .imagens-icons #play-store{
+    width: 122px;
+    left: 20px;
+    position: relative;
+    top: 13px;
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------PL-FINAIS-------------------------- */
+
+.corpo-inteiro .pl-finais{
+    width: 100%;
+    height: 110px;
+    background: #292929;
+    position: relative;
+    top: 690px;
+}
+
+/*   -----------------PL-FINAIS/PALAVRAS-------------------------- */
+
+.corpo-inteiro .pl-finais .palavras-finais{
+    position: relative;
+    bottom: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #sobre-lg{
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #ajude-lg{
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #status-lg{
+    position: relative;
+    left: 250px;
+    top: 40px;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #suporte-lg{
+    position: relative;
+    left: 300px;
+    top: 40px;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #torneios-lg{
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+
+.corpo-inteiro .pl-finais .palavras-finais #baixe-lg{
+    position: relative;
+    right: 330px;
+    top: 80px;
+}
+
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+/*   -----------------///////////////////-------------------------- */
+
+/*   -----------------FOOTER-------------------------- */
+
+.corpo-inteiro .final-body{
+    position: relative;
+    top: 690px;
+    width: 100%;
+    height: 430px;
+    background: #111;
+}
+
+.corpo-inteiro .final-body .icons{
+    display: flex;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    left: 25px;
+}
+
+.corpo-inteiro .final-body .icons #icon-youtube{
+    position: relative;
+    left: 550px;
+    top: 15px;
+}
+
+.corpo-inteiro .final-body .icons #icon-twitter{
+    position: relative;
+    left: 575px;
+    top: 15px;
+}
+
+.corpo-inteiro .final-body .icons #icon-facebook{
+    position: relative;
+    left: 600px;
+    top: 15px;
+}
+.corpo-inteiro .final-body .icons #icon-instagram{
+    position: relative;
+    left: 625px;
+    top: 15px;
+}
+
+.corpo-inteiro .final-body .icons #icon-reddit{
+    position: relative;
+    left: 650px;
+    top: 15px;
+}
+
+/*   -----------------FOOTER/RIOT-GAMES-PL-------------------------- */
+ 
+.corpo-inteiro .final-body .icone-mao2 #icon-mao2{
+    width: 30px;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.corpo-inteiro .final-body .icone-mao2{
+    position: relative;
+    left: 625px;
+    top: 60px;
+    font-size: 20px;
+    color: #737373;
+}
+
+/*   -----------------FOOTER/TERMOS-------------------------- */
+
+.corpo-inteiro .final-body .termos{
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: #7e7e7e;
+    position: relative;
+    top: 80px;
+}
+
+/*   -----------------FOOTER/PALAVRAS-------------------------- */
+
+.corpo-inteiro .final-body .palavras-pl{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    top: 120px;
+}
+
+.corpo-inteiro .final-body .palavras-pl #eula{
+    margin-left: 400px;
+}
+
+.corpo-inteiro .final-body .palavras-pl #eula:hover{
+    background: rgba(128,128,128,.2);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.corpo-inteiro .final-body .palavras-pl #aviso{
+    margin-left: 20px;
+}
+
+.corpo-inteiro .final-body .palavras-pl #aviso:hover{
+    background: rgba(128,128,128,.2);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.corpo-inteiro .final-body .palavras-pl #termos{
+    margin-left: 20px;
+}
+
+.corpo-inteiro .final-body .palavras-pl #termos:hover{
+    background: rgba(128,128,128,.2);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.corpo-inteiro .final-body .palavras-pl #preferen{
+    margin-left: 20px;
+}
+
+.corpo-inteiro .final-body .palavras-pl #preferen:hover{
+    background: rgba(128,128,128,.2);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+/*   -----------------FOOTER/12-------------------------- */
+
+.corpo-inteiro .final-body .doze-anos{
+    width: 274px;
+    height: 124px;
+    background: #292929;
+    position: relative;
+    left: 530px;
+    top: 150px;
+    border-radius: 4px;
+}
+
+.corpo-inteiro .final-body .doze-anos #img-doze{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.corpo-inteiro .final-body .doze-anos span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+    line-height: 20px;
+}

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/c4b7e6276f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>League of Legends</title>
 </head>
@@ -253,7 +254,7 @@
                         </div>
     {{-------------------ESCOLHA-SEU-CAMPEAO/IMAGENS----------------------------}}
                         <div class="imgs-campeao">
-                            <iframe width="451" height="254" src="https://www.youtube.com/embed/eovBRox_8u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe  width="451" height="254" src="https://www.youtube.com/embed/eovBRox_8u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </nav>
@@ -300,12 +301,129 @@
                 </div> 
                 <div class="parte-modo-jogo">
                     <div class="modo-de-jogo">
-                        
+                        <div class="fundos">
+                            <div>
+                                <img id="fundo-rift" src="{{asset('/assets/imgs/fundo-rift.jpg')}}" alt="">
+                            </div>
+                        </div>
+                        <div class="pl-varias">
+                            <div id="pl-summonner">
+                                <span>SUMMONNER</span>
+                            </div>
+                            <div id="pl-aram">
+                                <span>ARAM</span>
+                            </div>
+                            <div id="pl-tft">
+                                <span>TFT</span>
+                            </div>
+                            <div id="varias">
+                                <span>VÁRIAS MANEIRAS DE</span>
+                            </div>
+                            <div id="jogar">
+                                <span>JOGAR</span>
+                            </div>
+                        </div>
+                        <div class="btn-jogar5">
+                             <input type="submit" name="btn-jogar5" value="JOGUE AGORA">
+                        </div>
+                        <div class="pl-modos-lado">
+                            <p id="pl-modos">MODOS DE JOGO ----</p>
+                        </div>
+                        <div class="imgs-pequenas">
+                            <img id="img-lobby" src="{{asset('/assets/imgs/fundo-rift.jpg')}}" alt="">
+                            <img id="aram" src="{{asset('/assets/imgs/aram.jpg')}}" alt="">
+                            <img id="tft" src="{{asset('/assets/imgs/tft.jpg')}}" alt="">
+                        </div>
+                        <div class="frases">
+                            <span id="guerra">UMA GUERRA TODOS CONTRA TODOS EM BUSCA DA SUPREMACIA</span>
+                            <span id="montar">Monte uma equipe de Campeões para batalhar em seu nome. Derrote os sete</span>
+                            <span id="oponentes">oponentes e sobreviva por mais tempo.</span>
+                        </div>
                     </div>
                 </div>
-                <div class="parte-como-jogar">
-
+                <div class="como-jogar">
+                    <div>
+                        <img id="arena" src="{{asset('/assets/imgs/arena.png')}}" alt="">
+                    </div>
+                    <span id="pl-como-jogar">COMO JOGAR ----</span>
+                    <span id="comece">COMECE SUA</span>
+                    <span id="lenda">LENDA</span>
+                    <span id="acabou">Acabou de chegar ao LoL? Temos um resumo do básico do modo</span>
+                    <span id="jogo-jogado">de jogo mais jogado.</span>
+                    <input type="submit" id="pl-comecar" value="COMEÇAR">
+                    <input type="submit" id="pl-jogar-agora" value="JOGAR AGORA">
                 </div>
+            </div>
+            <div class="em-destaque">
+                <div class="palavras-destaque">
+                    <span id="pl-destaque">EM DESTAQUE ------</span>
+                    <span id="pl-descubra">DESCUBRA</span>
+                    <span id="pl-mais">MAIS</span>
+                </div>
+                <div class="imagens-destaque">
+                    <img id="img-tft-camp" src="{{asset('/assets/imgs/tft-camp.jpg')}}" alt="">
+                    <img id="img-renata-class" src="{{asset('/assets/imgs/renata-class.jpg')}}" alt="">
+                </div>
+                <div class="palavras-destaque">
+                    <span id="pl-campeonato">CAMPEONATO <br> BUGIGANGAS E <br> <p id="engenhocas">ENGENHOCAS DO TFT</p></span>
+                    <span id="pl-renata">RENATA GLASC NO <br> <p id="universo">UNIVERSO</p></span>
+                </div>
+            </div>
+            <div class="fim-video">
+                <video  loop autoplay muted id="video-kaisa">
+                    <source src="https://assets.contentstack.io/v3/assets/blt731acb42bb3d1659/blte5d5ac96b514d502/5f495971a21dbd47faf26c0b/ss2020_kaisa_1920x1080.mp4" type="video/mp4">
+                </video>
+                <input type="submit" id="btn-jogar-agora3" value="JOGUE DE GRAÇA">
+            </div>
+            <div class="portatil">
+                <div class="palavras-footer">
+                    <span id="leve">LEVE O LEAGUE COM VOCÊ</span>
+                    <span id="baixe">Baixe o aplicativo do League para sempre estar conectado aos seus amigos e ter acesso às partidas<br><p id="recentes">e notícias mais recentes dos Esports.</p></span>
+                </div>
+                <div class="imagens-icons">
+                    <img id="app-store" src="{{asset('/assets/imgs/icon-app-store.svg')}}" alt="">
+                    <img id="play-store" src="{{asset('/assets/imgs/icon-play-store.svg')}}" alt="">
+                </div>
+            </div>
+            <div class="pl-finais">
+                <div class="palavras-finais">
+                    <span id="sobre-lg">SOBRE LEAGUE OF LEGENDS</span>
+                    <span id="ajude-lg">AJUDE-NOS A MELHORAR</span>
+                    <span id="status-lg">STATUS DE SERVIÇO</span>
+                    <span id="suporte-lg">SUPORTE</span>
+                    <span id="torneios-lg">TORNEIOS INDEPENDENTES</span>
+                    <span id="baixe-lg">BAIXE O APLICATIVO DE CELULAR RIOT MOBILE</span>
+                </div>
+            </div>
+            <div class="final-body">
+                <div class="icons">
+                    <i class="fa fa-youtube-play" id="icon-youtube"></i>
+                    <i class="fa" id="icon-twitter">&#xf099;</i>
+                    <i class="fa" id="icon-facebook">&#xf09a;</i>
+                    <i class="fa" id="icon-instagram">&#xf16d;</i>
+                    <i class="fa" id="icon-reddit">&#xf1a1;</i>
+                </div>
+                <div class="icone-mao2">
+                    <img id="icon-mao2"src="{{asset('/assets/imgs/icon-mao2.png')}}" alt="mao-lol">
+                    <h4>RIOT <br>GAMES<h4>
+                </div>
+                <div class="termos">
+                    <span>™ & © 2022 Riot Games, Inc. Todos os direitos reservados. Riot games, League of Legends e PvP.net são marcas <br> <p id="registradas">registradas e marcas de serviços da Riot Games, Inc </p></span>
+                </div>  
+                <div class="palavras-pl">
+                    <span id="eula">EULA</span>
+                    <span id="aviso">AVISO DE PRIVAVIDADE</span>
+                    <span id="termos">TERMOS DE USO</span>
+                    <span id="preferen">PREFERÊNCIAS DE COOKIES</span>
+                </div> 
+                <div class="doze-anos">
+                    <img id="img-doze" src="{{asset('/assets/imgs/12_idade_baixo.png')}}" alt="">
+                    <span>Violência</span>
+                    <span>Conteúdo Sexual</span>
+                    <span>Linguagem Imprópria</span>
+                    <span>Compras On-line</span>
+                    <span>Interação de Usuários</span>
+                </div> 
             </div>
         </div>
 </body>
